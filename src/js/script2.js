@@ -1,5 +1,5 @@
 ;(function() {
-  let responsePromise = createRequest('https://tanuhaua.github.io/datas-file-json/github_users.jsonh');
+  let responsePromise = createRequest('https://tanuhaua.github.io/datas-file-json/github_users.json');
   responsePromise
     .then(
       result => console.log("Fulfilled: " + result),
